@@ -7,7 +7,7 @@ function mostrarDetalles(listado){
     console.log((i+1)+"."+"calificacion :"+listado[i].calificacion,"-premios: "+listado[i].premios,"-duracion: "+listado[i].duracion,"-precio: "+listado[i].precio);
     }
 }
-mostrarDetalles(pelicula);
+//mostrarDetalles(pelicula);
 
 //const mostrar2=require("mensaje.txt")
 const leer = fs.readFileSync("mensaje.txt","utf8")
